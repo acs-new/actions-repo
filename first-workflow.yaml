@@ -1,0 +1,9 @@
+name: first_workflow
+on: [push]
+
+jobs:
+  writing a string:
+    runs-on: ubuntu-latest
+    steps:
+      - name: string output
+        run: echo "Hello"
