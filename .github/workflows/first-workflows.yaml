@@ -19,3 +19,9 @@ jobs:
         run: echo "Hello world"
       - name: error step
         run: doesnotexist
+
+  dependant:
+    runs-on: windows-latest
+    steps:
+      - name: string output
+        run: echo "successful"
