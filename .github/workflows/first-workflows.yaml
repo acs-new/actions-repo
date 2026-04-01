@@ -23,5 +23,5 @@ jobs:
   dependant:
     runs-on: windows-latest
     steps:
-      - name: string output
+      - name: writing-a-string
         run: echo "successful"
