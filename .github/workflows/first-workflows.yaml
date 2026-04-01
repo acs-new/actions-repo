@@ -26,3 +26,11 @@ jobs:
     steps:
       - name: string output
         run: echo "successful"
+
+  directories-lists:
+    runs-on: ubuntu-latest
+    steps:
+      - name: present directory
+        run: |
+        pwd
+        ls -a
