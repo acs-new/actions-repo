@@ -11,3 +11,11 @@ jobs:
         run: |
           node -v
           python --version
+
+  parallel-job:
+    runs-on: macos-latest
+    steps:
+      - name: echooes a string
+        run: echo "Hello world"
+      - name: error step
+        run: doesnotexist
