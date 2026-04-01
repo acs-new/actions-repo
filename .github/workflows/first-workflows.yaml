@@ -7,3 +7,7 @@ jobs:
     steps:
       - name: string output
         run: echo "Hello"
+      - name: multiple commands
+        run: |
+          node -v
+          python --version
