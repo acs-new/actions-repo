@@ -32,5 +32,4 @@ jobs:
     steps:
       - name: present directory
         run: |
-        pwd
-        ls -a
+          ls -a
