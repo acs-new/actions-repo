@@ -32,4 +32,4 @@ jobs:
     steps:
       - name: present directory
         run: |
-          ls
+          ls-a
