@@ -18,7 +18,7 @@ jobs:
       - name: echooes a string
         run: echo "Hello world"
       - name: error step
-        run: doesnotexist
+        run: pwd
 
   dependant:
     runs-on: windows-latest
